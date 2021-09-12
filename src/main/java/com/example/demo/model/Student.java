@@ -16,7 +16,7 @@ public class Student {
     public UUID getId() {
         return id;
     }
-    @JsonIgnore  // no return name value to frontend
+    //@JsonIgnore   序列化被忽略 no return name value to frontend
     public String getName() {
         return name;
     }
